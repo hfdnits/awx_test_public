@@ -1,0 +1,6 @@
+---
+- name: test
+  hosts: localhost
+  tasks:
+    - name: ping
+      shell: ping 10.2.22.203
